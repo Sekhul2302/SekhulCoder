@@ -7,21 +7,40 @@ public class Employee {
 	}
 	
 	
-	
-	public Employee(int id, String name, String address, double salary) {
+	public Employee(int id, String name, String address, double salary, String no_Hp) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.address = address;
 		this.salary = salary;
+		this.no_Hp = no_Hp;
 	}
+
+
+
+
 
 	// property
 	private int id;
 	private String name;
 	private String address;
 	private double salary;
+	private String no_Hp;
 	
+	
+	
+	public String getNo_Hp() {
+		return no_Hp;
+	}
+
+
+
+	public void setNo_Hp(String no_Hp) {
+		this.no_Hp = no_Hp;
+	}
+
+
+
 	public int getId() {
 		return id;
 	}
